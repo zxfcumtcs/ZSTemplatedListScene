@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48948C92153BCC500297170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48948C82153BCC500297170 /* AppDelegate.m */; };
+		B48948D12153BCC600297170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48948D02153BCC600297170 /* Assets.xcassets */; };
+		B48948D42153BCC600297170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48948D22153BCC600297170 /* LaunchScreen.storyboard */; };
+		B48948D72153BCC600297170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48948D62153BCC600297170 /* main.m */; };
+		B48948EF2153BD6A00297170 /* UIResponder+ZSCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B48948DF2153BD6A00297170 /* UIResponder+ZSCEvent.m */; };
+		B48948F02153BD6A00297170 /* UITableViewCell+ZSCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B48948E12153BD6A00297170 /* UITableViewCell+ZSCEvent.m */; };
+		B48948F12153BD6A00297170 /* ZSCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B48948E32153BD6A00297170 /* ZSCEvent.m */; };
+		B489495221549CC500297170 /* ZSAddressBookAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B489494A21549CC500297170 /* ZSAddressBookAPI.m */; };
+		B489495321549CC500297170 /* ZSAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B489494D21549CC500297170 /* ZSAddressBookManager.m */; };
+		B489495421549CC500297170 /* ZSAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B489495121549CC500297170 /* ZSAddressBookViewController.m */; };
+		B489495721549D5A00297170 /* ZSAddressBookDefaultStyleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B489495621549D5A00297170 /* ZSAddressBookDefaultStyleModule.m */; };
+		B489495A21549D8A00297170 /* ZSAddressBookItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B489495921549D8A00297170 /* ZSAddressBookItem.m */; };
+		B489495D2154A1B100297170 /* ZSAddressBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = B489495C2154A1B100297170 /* ZSAddressBookView.m */; };
+		B48949612154A22300297170 /* ZSAddressBookViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B48949602154A22300297170 /* ZSAddressBookViewModel.m */; };
+		B48949642154C40200297170 /* ZSAddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B48949632154C40200297170 /* ZSAddressBookCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B48948C42153BCC500297170 /* ZSTemplatedListSceneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSTemplatedListSceneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48948C72153BCC500297170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48948C82153BCC500297170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B48948D02153BCC600297170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48948D32153BCC600297170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48948D52153BCC600297170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48948D62153BCC600297170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48948DE2153BD6A00297170 /* UIResponder+ZSCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+ZSCEvent.h"; sourceTree = "<group>"; };
+		B48948DF2153BD6A00297170 /* UIResponder+ZSCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+ZSCEvent.m"; sourceTree = "<group>"; };
+		B48948E02153BD6A00297170 /* UITableViewCell+ZSCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ZSCEvent.h"; sourceTree = "<group>"; };
+		B48948E12153BD6A00297170 /* UITableViewCell+ZSCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ZSCEvent.m"; sourceTree = "<group>"; };
+		B48948E22153BD6A00297170 /* ZSCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCEvent.h; sourceTree = "<group>"; };
+		B48948E32153BD6A00297170 /* ZSCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCEvent.m; sourceTree = "<group>"; };
+		B48949382153C28D00297170 /* ZSModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSModule.h; sourceTree = "<group>"; };
+		B489494921549CC500297170 /* ZSAddressBookAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookAPI.h; sourceTree = "<group>"; };
+		B489494A21549CC500297170 /* ZSAddressBookAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookAPI.m; sourceTree = "<group>"; };
+		B489494C21549CC500297170 /* ZSAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookManager.h; sourceTree = "<group>"; };
+		B489494D21549CC500297170 /* ZSAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookManager.m; sourceTree = "<group>"; };
+		B489495021549CC500297170 /* ZSAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookViewController.h; sourceTree = "<group>"; };
+		B489495121549CC500297170 /* ZSAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookViewController.m; sourceTree = "<group>"; };
+		B489495521549D5A00297170 /* ZSAddressBookDefaultStyleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookDefaultStyleModule.h; sourceTree = "<group>"; };
+		B489495621549D5A00297170 /* ZSAddressBookDefaultStyleModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookDefaultStyleModule.m; sourceTree = "<group>"; };
+		B489495821549D8A00297170 /* ZSAddressBookItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookItem.h; sourceTree = "<group>"; };
+		B489495921549D8A00297170 /* ZSAddressBookItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookItem.m; sourceTree = "<group>"; };
+		B489495B2154A1B100297170 /* ZSAddressBookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookView.h; sourceTree = "<group>"; };
+		B489495C2154A1B100297170 /* ZSAddressBookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookView.m; sourceTree = "<group>"; };
+		B489495F2154A22300297170 /* ZSAddressBookViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookViewModel.h; sourceTree = "<group>"; };
+		B48949602154A22300297170 /* ZSAddressBookViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookViewModel.m; sourceTree = "<group>"; };
+		B48949622154C40200297170 /* ZSAddressBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSAddressBookCell.h; sourceTree = "<group>"; };
+		B48949632154C40200297170 /* ZSAddressBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSAddressBookCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48948C12153BCC500297170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48948BB2153BCC500297170 = {
+			isa = PBXGroup;
+			children = (
+				B48948DD2153BD6A00297170 /* ZSCEventResponder */,
+				B48948C62153BCC500297170 /* ZSTemplatedListSceneExample */,
+				B48948C52153BCC500297170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48948C52153BCC500297170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48948C42153BCC500297170 /* ZSTemplatedListSceneExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48948C62153BCC500297170 /* ZSTemplatedListSceneExample */ = {
+			isa = PBXGroup;
+			children = (
+				B489494721549CC500297170 /* AddressBook */,
+				B48948C72153BCC500297170 /* AppDelegate.h */,
+				B48948C82153BCC500297170 /* AppDelegate.m */,
+				B48948D02153BCC600297170 /* Assets.xcassets */,
+				B48948D22153BCC600297170 /* LaunchScreen.storyboard */,
+				B48948D52153BCC600297170 /* Info.plist */,
+				B48948D62153BCC600297170 /* main.m */,
+				B48949382153C28D00297170 /* ZSModule.h */,
+			);
+			path = ZSTemplatedListSceneExample;
+			sourceTree = "<group>";
+		};
+		B48948DD2153BD6A00297170 /* ZSCEventResponder */ = {
+			isa = PBXGroup;
+			children = (
+				B48948DE2153BD6A00297170 /* UIResponder+ZSCEvent.h */,
+				B48948DF2153BD6A00297170 /* UIResponder+ZSCEvent.m */,
+				B48948E02153BD6A00297170 /* UITableViewCell+ZSCEvent.h */,
+				B48948E12153BD6A00297170 /* UITableViewCell+ZSCEvent.m */,
+				B48948E22153BD6A00297170 /* ZSCEvent.h */,
+				B48948E32153BD6A00297170 /* ZSCEvent.m */,
+			);
+			name = ZSCEventResponder;
+			path = ../../ZSCEventResponder;
+			sourceTree = "<group>";
+		};
+		B489494721549CC500297170 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				B489494B21549CC500297170 /* Manager */,
+				B489494821549CC500297170 /* API */,
+				B489494E21549CC500297170 /* Module */,
+				B489495E2154A1DA00297170 /* ViewModel */,
+				B489494F21549CC500297170 /* View */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		B489494821549CC500297170 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B489494921549CC500297170 /* ZSAddressBookAPI.h */,
+				B489494A21549CC500297170 /* ZSAddressBookAPI.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B489494B21549CC500297170 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B489494C21549CC500297170 /* ZSAddressBookManager.h */,
+				B489494D21549CC500297170 /* ZSAddressBookManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B489494E21549CC500297170 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B489495521549D5A00297170 /* ZSAddressBookDefaultStyleModule.h */,
+				B489495621549D5A00297170 /* ZSAddressBookDefaultStyleModule.m */,
+				B489495821549D8A00297170 /* ZSAddressBookItem.h */,
+				B489495921549D8A00297170 /* ZSAddressBookItem.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B489494F21549CC500297170 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B489495021549CC500297170 /* ZSAddressBookViewController.h */,
+				B489495121549CC500297170 /* ZSAddressBookViewController.m */,
+				B489495B2154A1B100297170 /* ZSAddressBookView.h */,
+				B489495C2154A1B100297170 /* ZSAddressBookView.m */,
+				B48949622154C40200297170 /* ZSAddressBookCell.h */,
+				B48949632154C40200297170 /* ZSAddressBookCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B489495E2154A1DA00297170 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B489495F2154A22300297170 /* ZSAddressBookViewModel.h */,
+				B48949602154A22300297170 /* ZSAddressBookViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48948C32153BCC500297170 /* ZSTemplatedListSceneExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48948DA2153BCC600297170 /* Build configuration list for PBXNativeTarget "ZSTemplatedListSceneExample" */;
+			buildPhases = (
+				B48948C02153BCC500297170 /* Sources */,
+				B48948C12153BCC500297170 /* Frameworks */,
+				B48948C22153BCC500297170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSTemplatedListSceneExample;
+			productName = ZSTemplatedListSceneExample;
+			productReference = B48948C42153BCC500297170 /* ZSTemplatedListSceneExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48948BC2153BCC500297170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZS;
+				TargetAttributes = {
+					B48948C32153BCC500297170 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B48948BF2153BCC500297170 /* Build configuration list for PBXProject "ZSTemplatedListSceneExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48948BB2153BCC500297170;
+			productRefGroup = B48948C52153BCC500297170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48948C32153BCC500297170 /* ZSTemplatedListSceneExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48948C22153BCC500297170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48948D42153BCC600297170 /* LaunchScreen.storyboard in Resources */,
+				B48948D12153BCC600297170 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48948C02153BCC500297170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B489495721549D5A00297170 /* ZSAddressBookDefaultStyleModule.m in Sources */,
+				B489495221549CC500297170 /* ZSAddressBookAPI.m in Sources */,
+				B48948F02153BD6A00297170 /* UITableViewCell+ZSCEvent.m in Sources */,
+				B48949612154A22300297170 /* ZSAddressBookViewModel.m in Sources */,
+				B48948D72153BCC600297170 /* main.m in Sources */,
+				B489495321549CC500297170 /* ZSAddressBookManager.m in Sources */,
+				B489495421549CC500297170 /* ZSAddressBookViewController.m in Sources */,
+				B48949642154C40200297170 /* ZSAddressBookCell.m in Sources */,
+				B489495D2154A1B100297170 /* ZSAddressBookView.m in Sources */,
+				B48948F12153BD6A00297170 /* ZSCEvent.m in Sources */,
+				B48948EF2153BD6A00297170 /* UIResponder+ZSCEvent.m in Sources */,
+				B489495A21549D8A00297170 /* ZSAddressBookItem.m in Sources */,
+				B48948C92153BCC500297170 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B48948D22153BCC600297170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48948D32153BCC600297170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48948D82153BCC600297170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B48948D92153BCC600297170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48948DB2153BCC600297170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSTemplatedListSceneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZS.Example.ZSTemplatedListSceneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B48948DC2153BCC600297170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSTemplatedListSceneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZS.Example.ZSTemplatedListSceneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48948BF2153BCC500297170 /* Build configuration list for PBXProject "ZSTemplatedListSceneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48948D82153BCC600297170 /* Debug */,
+				B48948D92153BCC600297170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48948DA2153BCC600297170 /* Build configuration list for PBXNativeTarget "ZSTemplatedListSceneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48948DB2153BCC600297170 /* Debug */,
+				B48948DC2153BCC600297170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48948BC2153BCC500297170 /* Project object */;
+}
